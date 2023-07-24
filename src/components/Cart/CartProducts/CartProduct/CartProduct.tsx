@@ -37,7 +37,7 @@ const CartProduct = ({ product }: IProps) => {
         alt={title}
       />
       <S.Details>
-        <S.Title>{title}</S.Title>
+        <S.Title data-test="cartItemTitle">{title}</S.Title>
         <S.Desc>
           {`${availableSizes[0]} | ${style}`} <br />
           Quantity: {quantity}
